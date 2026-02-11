@@ -1,0 +1,45 @@
+{
+  "id": "8baaec83-ce88-4fea-a405-25a552967fe9",
+  "name": "Customization_ExtendServiceCalls",
+  "publisher": "GMA",
+  "version": "1.0.0.2",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "ecc292a6-4f06-4082-9167-af6452d33f8d",
+      "publisher": "GMA-CRONUS",
+      "name": "My Customizations",
+      "version": "1.0.0.13"
+    },
+        {
+      "id": "6da8dd2f-e698-461f-9147-8e404244dd85",
+      "publisher": "GMA-CRONUS",
+      "name": "Debug - Web Approval",
+      "version": "1.0.0.8"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50500
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,7 @@
+# AL Project build artifacts
+.alpackages/
+.altestrunner/
+*.app
+
+# Visual Studio Code
+.vscode/.alcache/
