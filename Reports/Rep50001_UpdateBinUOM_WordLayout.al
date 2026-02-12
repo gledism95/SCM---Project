@@ -268,7 +268,7 @@ report 50001 "Update Bin UOM - Preview Mode"
         layout(PreviewLayout)
         {
             Type = Word;
-            LayoutFile = 'UOMUpdatePreview.docx';
+            LayoutFile = 'Reports\Report Layouts\UOMUpdatePreview.docx';
             Caption = 'UOM Update Preview';
         }
     }
