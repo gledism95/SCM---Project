@@ -1,4 +1,4 @@
-report 50001 "Update Bin UOM - Preview Mode"
+report 50201 "Update Bin UOM - Preview Mode"
 {
     ApplicationArea = All;
     Caption = 'Update Bin UOM - Preview Mode';
@@ -102,10 +102,10 @@ report 50001 "Update Bin UOM - Preview Mode"
                 // --- STEP 2: Rename Bin Content (PK Change) ---
                 Rename(
                     "Location Code",
-                   "Bin Code",
+                    "Bin Code",
                     "Item No.",
-                  "Variant Code",
-                   NewUOM
+                    "Variant Code",
+                     NewUOM
                );
 
                 UpdatedBinContents := UpdatedBinContents + 1;

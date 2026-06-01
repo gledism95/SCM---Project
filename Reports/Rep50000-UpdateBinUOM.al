@@ -1,4 +1,4 @@
-report 50000 "Update Bin UOM"
+report 50200 "Update Bin UOM"
 {
     ApplicationArea = All;
     Caption = 'Update Bin UOM';
