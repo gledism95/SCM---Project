@@ -1,4 +1,4 @@
-codeunit 50002 "Bank Rec Insert Subscriber"
+codeunit 50003 "Bank Rec Insert Subscriber"
 {
     [EventSubscriber(ObjectType::Report, Report::"Trans. Bank Rec. to Gen. Jnl.", 'OnBeforeGenJnlLineInsert', '', false, false)]
     local procedure StampDefGlAccount(
